@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.cabecalho {
+    display: block;
+    padding: 24px 24px 24px 24px;
+}
+
+.cabecalho__menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    padding: 24px 24px 24px 24px;
+    background-color: white;
+    gap: 50px;
+}
+
+.apresentacao__conteudo__inicio:target {
+    scroll-margin-top: .8em;
+}
+
+.apresentacao__sobremim_inicio:target {
+    scroll-margin-top: .8em;
+}
+
+.cabecalho__menu__link{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: black;
+    text-decoration: none;
+}
+
+body{
+   box-sizing: border-box;
+}
+
+.apresentacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.apresentacao__conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    margin: 0 0 5% 25%;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.apresentacao__sobremim {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    margin: 0 0 5% 25%;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.contato {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    margin: 0 0 5% 25%;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.imagem {
+    width: 50%;
+    height: auto;
+}
+
+.rodape {
+    color: black;
+    background-color: rgb(214, 214, 214);
+    padding: 24px 24px 24px 24px;
+    display: flex;
+    justify-content: center;
+    font-family: "Josefin Sans", sans-serif;
+}
